@@ -28,16 +28,6 @@ h2{
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* Classes that you might find useful */
 /* Note* These classes do not cover every possibloe case to build you flags, you will have to continue to add your own*/
 
@@ -47,6 +37,7 @@ h2{
     width: 500px;
     border-style: solid;
     margin-bottom: 5rem;
+    text-align: center;
 }
 
 .horiz{
@@ -80,12 +71,65 @@ h2{
     width: 200px;
     position: relative;
     left: 85px;
-    top: 50px
+    top: 50px;
 }
 
+.greece{
+    height: calc(100%/9);
+}
 
+#greece-box{
+    position: absolute;
+    height: calc(300px/9*5);
+    width: calc(300px/9*5);
+    z-index: 1;
+    text-align: center;
+}
 
+#greece-horiz{
+    position: relative;
+    height: calc(300px/9);
+    width: 100%;
+    top: calc(300px/9*2)
+}
 
+#greece-vert{
+    position: absolute;
+    height: calc(300px/9*5);
+    width: calc(300px/9);
+    left: calc(300px/9*2);
+}
+
+#eagle{
+    position: relative;
+    height: 33.3%;
+    width: 66.6%;
+    padding: 60% 0;
+    background-color: white;
+}
+
+#finland{
+    position: relative;
+    height: 100%;
+    width: 20%;
+    z-index: 1;
+    left: 20%;
+}
+
+.sri-1{
+    position: relative;
+    height: 250px;
+    width: 150px;
+    left: 25px;
+    top: 25px;
+}
+
+.sri-2{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    left: 125px;
+}
 
 /* Colors/ Feel free to add your own! */
 
@@ -122,5 +166,14 @@ h2{
 }
 
 .luxembourg-blue{
-    background-color: #00A2E1
+    background-color: #00A2E1;
+}
+
+.dark-orange{
+    background-color: #FF5349;
+    position: relative;
+    height: 250px;
+    width: 75px;
+    left: 75px;
+    z-index: 10;
 }
